@@ -209,44 +209,7 @@ export default function ProfilePage() {
               </div>
             </div>
 
-            {/* Professional Details */}
-            <div className="bg-white rounded-lg shadow">
-              <div className="p-6 border-b border-gray-200">
-                <h3 className="text-lg font-semibold text-gray-900 flex items-center">
-                  <Award className="w-5 h-5 text-primary mr-2" />
-                  Professional Details
-                </h3>
-              </div>
-              <div className="p-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Position</label>
-                    <div className="text-gray-900">Senior Humanitarian Analyst</div>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Experience</label>
-                    <div className="text-gray-900">8 years</div>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Specialization</label>
-                    <div className="text-gray-900">Crisis Response & Data Analysis</div>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Languages</label>
-                    <div className="text-gray-900">English, French, Spanish</div>
-                  </div>
-                  <div className="md:col-span-2">
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Certifications</label>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Humanitarian Response</span>
-                      <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Data Analysis</span>
-                      <span className="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Crisis Management</span>
-                      <span className="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">GIS Mapping</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             {/* Recent Activity */}
             <div className="bg-white rounded-lg shadow">
@@ -290,40 +253,7 @@ export default function ProfilePage() {
               </div>
             </div>
 
-            {/* Performance Metrics */}
-            <div className="bg-white rounded-lg shadow">
-              <div className="p-6 border-b border-gray-200">
-                <h3 className="text-lg font-semibold text-gray-900 flex items-center">
-                  <Activity className="w-5 h-5 text-primary mr-2" />
-                  Performance Metrics
-                </h3>
-              </div>
-              <div className="p-6">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-green-600 mb-2">98%</div>
-                    <div className="text-sm text-gray-600">Response Rate</div>
-                    <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-                      <div className="bg-green-600 h-2 rounded-full" style={{width: '98%'}}></div>
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-blue-600 mb-2">47s</div>
-                    <div className="text-sm text-gray-600">Avg Response Time</div>
-                    <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-                      <div className="bg-blue-600 h-2 rounded-full" style={{width: '85%'}}></div>
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600 mb-2">156</div>
-                    <div className="text-sm text-gray-600">Reports Generated</div>
-                    <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-                      <div className="bg-purple-600 h-2 rounded-full" style={{width: '92%'}}></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>
