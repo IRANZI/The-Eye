@@ -7,6 +7,20 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'The Eye - AI-Powered Crisis Response',
   description: 'Empowering humanitarian organizations like UNICEF to prioritize aid distribution during crises using real-world data and machine learning intelligence.',
+  icons: {
+    icon: [
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      },
+    ],
+    apple: [
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({

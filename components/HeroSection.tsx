@@ -2,7 +2,7 @@ import { Eye } from 'lucide-react'
 
 export default function HeroSection() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section id="hero" className="bg-gray-50 py-20">
       <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
         {/* Eye Icon */}
         <div className="flex justify-center mb-8">
