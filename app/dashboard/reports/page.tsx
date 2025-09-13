@@ -40,24 +40,25 @@ export default function ReportsPage() {
                 />
               </div>
             </div>
+            
 
-            {/* Right Side Icons */}
+            {/* User Profile */}
             <div className="flex items-center space-x-4">
-              <button className="p-2 text-gray-400 hover:text-gray-600">
+              <Link href="/dashboard/notifications" className="p-2 text-gray-400 hover:text-gray-600">
                 <Bell className="w-5 h-5" />
-              </button>
-              <button className="p-2 text-gray-400 hover:text-gray-600">
+              </Link>
+              <Link href="/dashboard/settings" className="p-2 text-gray-400 hover:text-gray-600">
                 <Settings className="w-5 h-5" />
-              </button>
-              <div className="flex items-center space-x-2 text-sm">
-                <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                  <span className="text-white font-medium">HA</span>
+              </Link>
+              <Link href="/dashboard/profile" className="flex items-center space-x-2 bg-blue-50 rounded-full px-3 py-2 hover:bg-blue-100 transition-colors">
+                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm font-medium">H</span>
                 </div>
-                <div>
+                <div className="text-sm">
                   <div className="font-medium text-gray-900">Humanitarian Analyst</div>
-                  <div className="text-gray-500 text-xs">UNICEF Operations</div>
+                  <div className="text-gray-500">UNICEF Operations</div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
